@@ -72,7 +72,6 @@
     ],
     "transitType": "PKTransitTypeAir"
   },
-  "logoText": "Spring",
   "semantics": {
     "airlineCode": "9C",
     "flightCode": "KA120",
@@ -129,7 +128,7 @@
         "seatNumber": "F"
       }
     ],
-    "transitProvider": "Spring Airlines",
+    "transitProvider": "Spring",
     "destinationAirportCode": "KIX",
     "originalBoardingDate": "2025-05-17T10:10:00.000Z",
     "originalDepartureDate": "2025-05-17T10:27:00.000Z",
