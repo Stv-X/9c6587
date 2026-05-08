@@ -98,14 +98,9 @@
     "ticketFareClass": "Economy",
     "transitStatus": "On Time",
     "securityScreening": "TSA PreCheck",
-    "membershipProgramName": "Kumo Miles",
-    "membershipProgramNumber": "SK123456789",
-    "vehicleName": "Airbus A350",
-    "vehicleNumber": "SE-RSA",
+    "vehicleName": "Airbus 320-214",
+    "vehicleNumber": "B6852",
     "vehicleType": "Airplane",
-    "loungePlaceIDs": [
-      "SK-SFO-LOUNGE"
-    ],
     "passengerCapabilities": [
       "PKPassengerCapabilityPriorityBoarding",
       "PKPassengerCapabilityCarryon"
