@@ -1,0 +1,161 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.mk.local",
+  "teamIdentifier": "9733K94JUG",
+  "serialNumber": "7042E0BC4552B33E",
+  "organizationName": "Spring Airlines",
+  "description": "Apple Wallet Pass 项目",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(20, 131, 85)",
+  "labelColor": "rgb(187, 247, 208)",
+  "boardingPass": {
+    "headerFields": [
+      {
+        "key": "seat",
+        "label": "SEAT",
+        "value": "28F"
+      },
+      {
+        "key": "gate",
+        "label": "GATE",
+        "value": "D58"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "from",
+        "label": "Shanghai",
+        "value": "PVG"
+      },
+      {
+        "key": "to",
+        "label": "Osaka",
+        "value": "KIX"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "passenger",
+        "label": "PASSENGER",
+        "value": "SIMIAO XU"
+      },
+      {
+        "key": "flight",
+        "label": "FLIGHT",
+        "value": "9C6587"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "boards",
+        "label": "BOARDS",
+        "value": "18:10"
+      },
+      {
+        "key": "terminal",
+        "label": "TERM",
+        "value": "T2"
+      },
+      {
+        "key": "arrives",
+        "label": "ARRIVES",
+        "value": "21:30"
+      }
+    ],
+    "transitType": "PKTransitTypeAir"
+  },
+  "logoText": "Spring Airlines",
+  "semantics": {
+    "airlineCode": "9C",
+    "flightCode": "KA120",
+    "flightNumber": 6587,
+    "confirmationNumber": "BGQNEXJ",
+    "departureAirportCode": "PVG",
+    "departureAirportName": "Shanghai Pudong International Apt",
+    "departureCityName": "Shanghai",
+    "departureLocationTimeZone": "Asia/Shanghai",
+    "destinationAirportName": "Kansai International Airport",
+    "destinationCityName": "Osaka",
+    "destinationLocationTimeZone": "Asia/Tokyo",
+    "originalArrivalDate": "2025-05-17T12:30:00.000Z",
+    "currentDepartureDate": "2025-05-17T10:10:00.000Z",
+    "currentArrivalDate": "2025-05-17T12:30:00.000Z",
+    "passengerName": {
+      "givenName": "SIMIAO",
+      "familyName": "XU"
+    },
+    "departureGate": "D58",
+    "departureLocation": {
+      "latitude": 31.143378,
+      "longitude": 121.805214
+    },
+    "destinationGate": "A8",
+    "destinationTerminal": "4",
+    "destinationLocation": {
+      "latitude": 34.42731,
+      "longitude": 135.24407
+    },
+    "ticketFareClass": "Economy",
+    "transitStatus": "On Time",
+    "securityScreening": "TSA PreCheck",
+    "membershipProgramName": "Kumo Miles",
+    "membershipProgramNumber": "SK123456789",
+    "vehicleName": "Airbus A350",
+    "vehicleNumber": "SE-RSA",
+    "vehicleType": "Airplane",
+    "loungePlaceIDs": [
+      "SK-SFO-LOUNGE"
+    ],
+    "passengerCapabilities": [
+      "PKPassengerCapabilityPriorityBoarding",
+      "PKPassengerCapabilityCarryon"
+    ],
+    "passengerAirlineSSRs": [
+      "SKY"
+    ],
+    "trackBagsURL": "https://example.com/bags/SK042",
+    "upgradeURL": "https://example.com/upgrade/SK042",
+    "seats": [
+      {
+        "seatRow": "28",
+        "seatNumber": "F"
+      }
+    ],
+    "transitProvider": "Spring Airlines",
+    "destinationAirportCode": "KIX",
+    "originalBoardingDate": "2025-05-17T10:10:00.000Z",
+    "originalDepartureDate": "2025-05-17T10:10:00.000Z",
+    "departureTerminal": "T2",
+    "internationalDocumentsVerifiedDeclarationName": "DOCS OK",
+    "internationalDocumentsAreVerified": true,
+    "boardingSequenceNumber": "017",
+    "currentBoardingDate": "2025-05-17T10:27:00.000Z"
+  },
+  "preferredStyleSchemes": [
+    "semanticBoardingPass",
+    "boardingPass"
+  ],
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatPDF417",
+      "message": "M1XUSIMIAO EMMVQAB PVGKIX9C6587 137Y028F0017 100>1",
+      "messageEncoding": "iso-8859-1"
+    }
+  ],
+  "relevantDate": "2025-05-17T10:10:00.000Z",
+  "expirationDate": "2025-05-17T14:30:00.000Z",
+  "webServiceURL": "https://example.invalid/passkit",
+  "authenticationToken": "0000000000000000",
+  "locations": [
+    {
+      "longitude": 121.805214,
+      "latitude": 31.143378,
+      "relevantText": "上海浦东国际机场T2航站楼"
+    },
+    {
+      "longitude": 135.24407,
+      "latitude": 34.42731,
+      "relevantText": "关西国际机场T2航站楼"
+    }
+  ]
+}
