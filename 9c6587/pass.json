@@ -133,6 +133,9 @@
     "originalBoardingDate": "2025-05-17T10:10:00.000Z",
     "originalDepartureDate": "2025-05-17T10:27:00.000Z",
     "departureTerminal": "T2",
+    "internationalDocumentsVerifiedDeclarationName": "DOCS OK",
+    "internationalDocumentsAreVerified": true,
+    "priorityStatus": "017",
     "currentBoardingDate": "2025-05-17T10:10:00.000Z"
   },
   "preferredStyleSchemes": [
