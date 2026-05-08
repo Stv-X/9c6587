@@ -37,7 +37,7 @@
       {
         "key": "boards",
         "label": "BOARDS",
-        "value": "20:20"
+        "value": "19:20"
       },
       {
         "key": "terminal",
@@ -47,7 +47,7 @@
       {
         "key": "arrives",
         "label": "ARRIVES",
-        "value": "20:45"
+        "value": "21:45"
       }
     ],
     "transitType": "PKTransitTypeAir"
@@ -65,9 +65,9 @@
     "destinationAirportName": "Shanghai Pudong International Apt",
     "destinationCityName": "Shanghai",
     "destinationLocationTimeZone": "Asia/Shanghai",
-    "originalArrivalDate": "2025-05-22T12:45:00.000Z",
-    "currentDepartureDate": "2025-05-22T11:20:00.000Z",
-    "currentArrivalDate": "2025-05-22T12:45:00.000Z",
+    "originalArrivalDate": "2025-05-22T13:45:00.000Z",
+    "currentDepartureDate": "2025-05-22T10:20:00.000Z",
+    "currentArrivalDate": "2025-05-22T13:45:00.000Z",
     "passengerName": {
       "givenName": "SIMIAO",
       "familyName": "XU"
@@ -85,10 +85,8 @@
     "ticketFareClass": "Economy",
     "transitStatus": "On Time",
     "securityScreening": "TSA PreCheck",
-    "membershipProgramName": "Kumo Miles",
-    "membershipProgramNumber": "SK123456789",
-    "vehicleName": "Airbus A350",
-    "vehicleNumber": "SE-RSA",
+    "vehicleName": "Boeing 737-81D",
+    "vehicleNumber": "JA01GR",
     "vehicleType": "Airplane",
     "loungePlaceIDs": [
       "SK-SFO-LOUNGE"
@@ -104,11 +102,11 @@
     "upgradeURL": "https://example.com/upgrade/SK042",
     "transitProvider": "Spring Airlines Japan",
     "destinationAirportCode": "PVG",
-    "originalBoardingDate": "2025-05-22T11:20:00.000Z",
-    "originalDepartureDate": "2025-05-22T11:20:00.000Z",
+    "originalBoardingDate": "2025-05-22T10:20:00.000Z",
+    "originalDepartureDate": "2025-05-22T10:20:00.000Z",
     "internationalDocumentsVerifiedDeclarationName": "DOCS OK",
     "internationalDocumentsAreVerified": true,
-    "currentBoardingDate": "2025-05-22T11:20:00.000Z",
+    "currentBoardingDate": "2025-05-22T10:20:00.000Z",
     "departureTerminal": "T3"
   },
   "preferredStyleSchemes": [
