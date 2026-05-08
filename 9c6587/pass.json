@@ -6,7 +6,7 @@
   "organizationName": "9C6587",
   "description": "Apple Wallet Pass 项目",
   "foregroundColor": "rgb(255, 255, 255)",
-  "backgroundColor": "rgb(20, 83, 45)",
+  "backgroundColor": "rgb(20, 131, 85)",
   "labelColor": "rgb(187, 247, 208)",
   "boardingPass": {
     "headerFields": [
