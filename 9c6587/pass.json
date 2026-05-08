@@ -6,8 +6,8 @@
   "organizationName": "9C6587",
   "description": "Apple Wallet Pass 项目",
   "foregroundColor": "rgb(255, 255, 255)",
-  "backgroundColor": "rgb(16, 185, 129)",
-  "labelColor": "rgb(209, 250, 229)",
+  "backgroundColor": "rgb(20, 83, 45)",
+  "labelColor": "rgb(187, 247, 208)",
   "boardingPass": {
     "headerFields": [
       {
@@ -72,7 +72,6 @@
     ],
     "transitType": "PKTransitTypeAir"
   },
-  "logoText": "春秋航空",
   "semantics": {
     "airlineCode": "9C",
     "flightCode": "KA120",
@@ -111,16 +110,6 @@
     "vehicleName": "Airbus A350",
     "vehicleNumber": "SE-RSA",
     "vehicleType": "Airplane",
-    "passengerEligibleSecurityPrograms": [
-      "PKTransitSecurityProgramTSAPreCheck"
-    ],
-    "departureLocationSecurityPrograms": [
-      "PKTransitSecurityProgramTSAPreCheck",
-      "PKTransitSecurityProgramCLEAR"
-    ],
-    "destinationLocationSecurityPrograms": [
-      "PKTransitSecurityProgramTSAPreCheck"
-    ],
     "loungePlaceIDs": [
       "SK-SFO-LOUNGE"
     ],
