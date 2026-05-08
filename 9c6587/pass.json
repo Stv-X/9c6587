@@ -3,7 +3,7 @@
   "passTypeIdentifier": "pass.mk.local",
   "teamIdentifier": "9733K94JUG",
   "serialNumber": "C9E08B66608F7AA9",
-  "organizationName": "9C6587",
+  "organizationName": "Spring Airlines",
   "description": "Apple Wallet Pass 项目",
   "foregroundColor": "rgb(255, 255, 255)",
   "backgroundColor": "rgb(20, 131, 85)",
@@ -72,11 +72,12 @@
     ],
     "transitType": "PKTransitTypeAir"
   },
+  "logoText": "Spring",
   "semantics": {
     "airlineCode": "9C",
     "flightCode": "KA120",
     "flightNumber": 6587,
-    "confirmationNumber": "9X2K7Q",
+    "confirmationNumber": "BGQNEXJ",
     "departureAirportCode": "PVG",
     "departureAirportName": "Shanghai Pudong International Apt",
     "departureCityName": "Shanghai",
@@ -135,7 +136,7 @@
     "departureTerminal": "T2",
     "internationalDocumentsVerifiedDeclarationName": "DOCS OK",
     "internationalDocumentsAreVerified": true,
-    "priorityStatus": "017",
+    "boardingSequenceNumber": "017",
     "currentBoardingDate": "2025-05-17T10:10:00.000Z"
   },
   "preferredStyleSchemes": [
