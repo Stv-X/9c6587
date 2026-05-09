@@ -1,0 +1,167 @@
+{
+  "trackBagURL": "https://example.com/bags/SK042",
+  "upgradeURL": "https://example.com/upgrade/SK042",
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.mk.local",
+  "teamIdentifier": "9733K94JUG",
+  "serialNumber": "4D2B1BE7ACAFD092",
+  "organizationName": "D5559",
+  "description": "Boarding pass — train MR 218",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(51, 65, 85)",
+  "labelColor": "rgb(203, 213, 225)",
+  "boardingPass": {
+    "headerFields": [
+      {
+        "key": "h1",
+        "label": "CAR",
+        "value": "2"
+      },
+      {
+        "key": "h2",
+        "label": "SEAT",
+        "value": "12C"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "from",
+        "label": "Boston",
+        "value": "BOS"
+      },
+      {
+        "key": "to",
+        "label": "New York",
+        "value": "NYP"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "s1",
+        "label": "PASSENGER",
+        "value": "Rider 6501"
+      },
+      {
+        "key": "s2",
+        "label": "TRAIN",
+        "value": "MR 218"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "dep",
+        "label": "BOARDS",
+        "value": "8:26"
+      },
+      {
+        "key": "arr",
+        "label": "ARRIVES",
+        "value": "14:36"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "b1",
+        "label": "Notes",
+        "value": "Arrive at the gate at least 30 minutes before departure.",
+        "dataDetectorTypes": []
+      }
+    ],
+    "transitType": "PKTransitTypeTrain"
+  },
+  "logoText": "D5559",
+  "semantics": {
+    "airlineCode": "SK",
+    "flightCode": "SK042",
+    "flightNumber": 42,
+    "confirmationNumber": "9X2K7Q",
+    "departureAirportCode": "SFO",
+    "departureAirportName": "San Francisco International Airport",
+    "departureCityName": "San Francisco",
+    "departureLocationTimeZone": "America/Los_Angeles",
+    "destinationAirportCode": "JFK",
+    "destinationAirportName": "John F. Kennedy International Airport",
+    "destinationCityName": "New York",
+    "destinationLocationTimeZone": "America/New_York",
+    "originalBoardingDate": "2026-05-09T00:26:13.312Z",
+    "originalDepartureDate": "2026-05-09T01:06:13.312Z",
+    "originalArrivalDate": "2026-05-09T06:36:13.312Z",
+    "currentDepartureDate": "2026-05-09T01:06:13.312Z",
+    "currentArrivalDate": "2026-05-09T06:36:13.312Z",
+    "passengerName": {
+      "givenName": "Rider",
+      "familyName": "6501"
+    },
+    "departureGate": "B14",
+    "departureTerminal": "2",
+    "departureLocation": {
+      "latitude": 37.6213,
+      "longitude": -122.379
+    },
+    "destinationGate": "A8",
+    "destinationTerminal": "4",
+    "destinationLocation": {
+      "latitude": 40.6413,
+      "longitude": -73.7781
+    },
+    "boardingGroup": "2",
+    "boardingSequenceNumber": "038",
+    "boardingZone": "A",
+    "ticketFareClass": "Economy",
+    "transitProvider": "Scandinavian Airlines",
+    "transitStatus": "On Time",
+    "securityScreening": "TSA PreCheck",
+    "priorityStatus": "Priority",
+    "membershipProgramName": "Kumo Miles",
+    "membershipProgramNumber": "SK123456789",
+    "membershipProgramStatus": "Gold",
+    "vehicleName": "Airbus A350",
+    "vehicleNumber": "SE-RSA",
+    "vehicleType": "Airplane",
+    "internationalDocumentsAreVerified": true,
+    "internationalDocumentsVerifiedDeclarationName": "DOCS OK",
+    "passengerEligibleSecurityPrograms": [
+      "PKTransitSecurityProgramTSAPreCheck"
+    ],
+    "departureLocationSecurityPrograms": [
+      "PKTransitSecurityProgramTSAPreCheck",
+      "PKTransitSecurityProgramCLEAR"
+    ],
+    "destinationLocationSecurityPrograms": [
+      "PKTransitSecurityProgramTSAPreCheck"
+    ],
+    "loungePlaceIDs": [
+      "SK-SFO-LOUNGE"
+    ],
+    "passengerCapabilities": [
+      "PKPassengerCapabilityCarryon",
+      "PKPassengerCapabilityPriorityBoarding"
+    ],
+    "passengerServiceSSRs": [
+      "PETC"
+    ],
+    "passengerInformationSSRs": [
+      "INFT"
+    ],
+    "passengerAirlineSSRs": [
+      "SKY"
+    ],
+    "seats": [
+      {
+        "seatRow": "12",
+        "seatNumber": "C",
+        "seatType": "Window"
+      }
+    ]
+  },
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "MR218-R-6501-12C",
+      "messageEncoding": "iso-8859-1",
+      "altText": "MR 218 / 12C"
+    }
+  ],
+  "webServiceURL": "https://example.invalid/passkit",
+  "authenticationToken": "0000000000000000"
+}
