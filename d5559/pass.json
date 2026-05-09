@@ -5,71 +5,74 @@
   "passTypeIdentifier": "pass.mk.local",
   "teamIdentifier": "9733K94JUG",
   "serialNumber": "4D2B1BE7ACAFD092",
-  "organizationName": "D5559",
-  "description": "Boarding pass — train MR 218",
-  "foregroundColor": "rgb(255, 255, 255)",
-  "backgroundColor": "rgb(51, 65, 85)",
-  "labelColor": "rgb(203, 213, 225)",
+  "organizationName": "铁路12306",
+  "description": "D5559",
+  "foregroundColor": "rgb(240, 249, 255)",
+  "backgroundColor": "rgb(3, 105, 161)",
+  "labelColor": "rgb(186, 230, 253)",
   "boardingPass": {
     "headerFields": [
       {
         "key": "h1",
-        "label": "CAR",
-        "value": "2"
+        "label": "车厢",
+        "value": "02"
       },
       {
         "key": "h2",
-        "label": "SEAT",
-        "value": "12C"
+        "label": "席位",
+        "value": "1C"
+      },
+      {
+        "key": "h3",
+        "label": "检票口",
+        "value": "4B5B"
       }
     ],
     "primaryFields": [
       {
         "key": "from",
-        "label": "Boston",
-        "value": "BOS"
+        "label": "JIANGYIN",
+        "value": "江阴"
       },
       {
         "key": "to",
-        "label": "New York",
-        "value": "NYP"
+        "label": "SHANGHAI HONGQIAO",
+        "value": "上海虹桥"
       }
     ],
     "secondaryFields": [
       {
         "key": "s1",
-        "label": "PASSENGER",
-        "value": "Rider 6501"
+        "label": "乘客",
+        "value": "徐嗣苗",
+        "textAlignment": "PKTextAlignmentLeft"
       },
       {
         "key": "s2",
-        "label": "TRAIN",
-        "value": "MR 218"
+        "label": "列车",
+        "value": "和谐号",
+        "textAlignment": "PKTextAlignmentRight"
       }
     ],
     "auxiliaryFields": [
       {
         "key": "dep",
-        "label": "BOARDS",
-        "value": "8:26"
+        "label": "开点",
+        "value": "06:18",
+        "textAlignment": "PKTextAlignmentLeft"
       },
       {
         "key": "arr",
-        "label": "ARRIVES",
-        "value": "14:36"
-      }
-    ],
-    "backFields": [
-      {
-        "key": "b1",
-        "label": "Notes",
-        "value": "Arrive at the gate at least 30 minutes before departure.",
-        "dataDetectorTypes": []
+        "label": "到点",
+        "value": "07:31",
+        "textAlignment": "PKTextAlignmentRight",
+        "dateStyle": "PKDateStyleNone",
+        "timeStyle": "PKDateStyleNone"
       }
     ],
     "transitType": "PKTransitTypeTrain"
   },
-  "logoText": "D5559",
+  "logoText": "12306",
   "semantics": {
     "airlineCode": "SK",
     "flightCode": "SK042",
@@ -157,9 +160,8 @@
   "barcodes": [
     {
       "format": "PKBarcodeFormatQR",
-      "message": "MR218-R-6501-12C",
-      "messageEncoding": "iso-8859-1",
-      "altText": "MR 218 / 12C"
+      "message": "130D02*AHgAlDL3eQ0+kZe1QposfLTqyTnJkRZapisO9C22quLJmWwkiNu+BKrWZ3UGj8HCGL8/GIsQoKtAblSCgPC1ICvILGFp6Y87XFtFvsuOmyGgYrMl0eBM+Bfl9sN33Cz0LScyLGiz8rfq8qGpsKpL3LlhSCATgMzS5ABYcYe9rM8O+WthqcIjnFDSkIQ+iZ1p8nT7NfPIhvMFcupWThBOLllil8ScYXGqm2oLsIkc1IhEauQU+Hw49rk0ovcOsQlenUTk2XmZKs8IptMrw/BukqMjpXBWKTi1/bJmwLOlQWIeyCGi048t9tj5UZrGaf6BjgAAhaDw4znA+NJJVhHJF4cBoW6oi4U=",
+      "messageEncoding": "iso-8859-1"
     }
   ],
   "webServiceURL": "https://example.invalid/passkit",
