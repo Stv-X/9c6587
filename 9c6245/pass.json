@@ -59,6 +59,7 @@
     ],
     "transitType": "PKTransitTypeAir"
   },
+  "logoText": "Spring Airlines",
   "semantics": {
     "airlineCode": "9C",
     "flightCode": "KA120",
