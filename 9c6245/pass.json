@@ -42,6 +42,11 @@
     ],
     "auxiliaryFields": [
       {
+        "key": "boards",
+        "label": "BOARDS",
+        "value": "10:35"
+      },
+      {
         "key": "terminal",
         "label": "TERM",
         "value": "T3"
@@ -111,6 +116,8 @@
         "seatNumber": "A"
       }
     ],
+    "originalBoardingDate": "2026-05-23T02:35:00.000Z",
+    "currentBoardingDate": "2026-05-23T02:35:00.000Z",
     "currentDepartureDate": "2026-05-23T02:35:00.000Z",
     "currentArrivalDate": "2026-05-23T05:00:00.000Z"
   },
