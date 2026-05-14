@@ -1,0 +1,139 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.mk.local",
+  "teamIdentifier": "9733K94JUG",
+  "serialNumber": "6B5CCB5103ADF21E",
+  "organizationName": "Spring Airlines",
+  "description": "Apple Wallet Pass 项目",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(20, 131, 85)",
+  "labelColor": "rgb(187, 247, 208)",
+  "boardingPass": {
+    "primaryFields": [
+      {
+        "key": "from",
+        "label": "Tokyo",
+        "value": "NRT"
+      },
+      {
+        "key": "to",
+        "label": "Shanghai",
+        "value": "PVG"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "passenger",
+        "label": "PASSENGER",
+        "value": "SIMIAO XU"
+      },
+      {
+        "key": "flight",
+        "label": "FLIGHT",
+        "value": "IJ5"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "boards",
+        "label": "BOARDS",
+        "value": "19:20"
+      },
+      {
+        "key": "terminal",
+        "label": "TERM",
+        "value": "T3"
+      },
+      {
+        "key": "arrives",
+        "label": "ARRIVES",
+        "value": "21:45"
+      }
+    ],
+    "transitType": "PKTransitTypeAir"
+  },
+  "logoText": "Spring Airlines",
+  "semantics": {
+    "airlineCode": "IJ",
+    "flightCode": "KA120",
+    "flightNumber": 5,
+    "confirmationNumber": "ZTFMXD",
+    "departureAirportCode": "NRT",
+    "departureAirportName": "Narita International Airport",
+    "departureCityName": "Tokyo",
+    "departureLocationTimeZone": "Asia/Tokyo",
+    "destinationAirportName": "Shanghai Pudong International Apt",
+    "destinationCityName": "Shanghai",
+    "destinationLocationTimeZone": "Asia/Shanghai",
+    "originalArrivalDate": "2025-05-22T13:45:00.000Z",
+    "currentDepartureDate": "2025-05-22T10:20:00.000Z",
+    "currentArrivalDate": "2025-05-22T13:45:00.000Z",
+    "passengerName": {
+      "givenName": "SIMIAO",
+      "familyName": "XU"
+    },
+    "departureLocation": {
+      "latitude": 35.76472,
+      "longitude": 140.38639
+    },
+    "destinationGate": "A8",
+    "destinationTerminal": "4",
+    "destinationLocation": {
+      "latitude": 31.143378,
+      "longitude": 121.805214
+    },
+    "ticketFareClass": "Economy",
+    "transitStatus": "On Time",
+    "securityScreening": "TSA PreCheck",
+    "vehicleName": "Boeing 737-81D",
+    "vehicleNumber": "JA01GR",
+    "vehicleType": "Airplane",
+    "loungePlaceIDs": [
+      "SK-SFO-LOUNGE"
+    ],
+    "passengerCapabilities": [
+      "PKPassengerCapabilityPriorityBoarding",
+      "PKPassengerCapabilityCarryon"
+    ],
+    "passengerAirlineSSRs": [
+      "SKY"
+    ],
+    "trackBagsURL": "https://example.com/bags/SK042",
+    "upgradeURL": "https://example.com/upgrade/SK042",
+    "transitProvider": "Spring Airlines Japan",
+    "destinationAirportCode": "PVG",
+    "originalBoardingDate": "2025-05-22T10:20:00.000Z",
+    "originalDepartureDate": "2025-05-22T10:20:00.000Z",
+    "internationalDocumentsVerifiedDeclarationName": "DOCS OK",
+    "internationalDocumentsAreVerified": true,
+    "currentBoardingDate": "2025-05-22T10:20:00.000Z",
+    "departureTerminal": "T3"
+  },
+  "preferredStyleSchemes": [
+    "semanticBoardingPass",
+    "boardingPass"
+  ],
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatPDF417",
+      "message": "M1XUSIMIAO EMMVQAB PVGKIX9C6587 137Y028F0017 100>1",
+      "messageEncoding": "iso-8859-1"
+    }
+  ],
+  "relevantDate": "2025-05-22T11:20:00.000Z",
+  "expirationDate": "2025-05-22T12:45:00.000Z",
+  "webServiceURL": "https://example.invalid/passkit",
+  "authenticationToken": "0000000000000000",
+  "locations": [
+    {
+      "longitude": 121.805214,
+      "latitude": 31.143378,
+      "relevantText": "上海浦东国际机场T2航站楼"
+    },
+    {
+      "longitude": 140.38639,
+      "latitude": 35.76472,
+      "relevantText": "东京成田国际机场T3航站楼"
+    }
+  ]
+}
