@@ -9,16 +9,23 @@
   "backgroundColor": "rgb(20, 131, 85)",
   "labelColor": "rgb(187, 247, 208)",
   "boardingPass": {
+    "headerFields": [
+      {
+        "key": "seat",
+        "label": "SEAT",
+        "value": "30A"
+      }
+    ],
     "primaryFields": [
       {
         "key": "from",
-        "label": "Tokyo",
-        "value": "NRT"
+        "label": "Shanghai",
+        "value": "PVG"
       },
       {
         "key": "to",
-        "label": "Shanghai",
-        "value": "PVG"
+        "label": "Okinawa",
+        "value": "OKA"
       }
     ],
     "secondaryFields": [
@@ -30,15 +37,10 @@
       {
         "key": "flight",
         "label": "FLIGHT",
-        "value": "IJ5"
+        "value": "9C6245"
       }
     ],
     "auxiliaryFields": [
-      {
-        "key": "boards",
-        "label": "BOARDS",
-        "value": "19:20"
-      },
       {
         "key": "terminal",
         "label": "TERM",
@@ -47,40 +49,36 @@
       {
         "key": "arrives",
         "label": "ARRIVES",
-        "value": "21:45"
+        "value": "14:00"
       }
     ],
     "transitType": "PKTransitTypeAir"
   },
   "logoText": "Spring Airlines",
   "semantics": {
-    "airlineCode": "IJ",
+    "airlineCode": "9C",
     "flightCode": "KA120",
-    "flightNumber": 5,
-    "confirmationNumber": "ZTFMXD",
-    "departureAirportCode": "NRT",
-    "departureAirportName": "Narita International Airport",
-    "departureCityName": "Tokyo",
-    "departureLocationTimeZone": "Asia/Tokyo",
-    "destinationAirportName": "Shanghai Pudong International Apt",
-    "destinationCityName": "Shanghai",
-    "destinationLocationTimeZone": "Asia/Shanghai",
-    "originalArrivalDate": "2025-05-22T13:45:00.000Z",
-    "currentDepartureDate": "2025-05-22T10:20:00.000Z",
-    "currentArrivalDate": "2025-05-22T13:45:00.000Z",
+    "flightNumber": 6245,
+    "departureAirportCode": "PVG",
+    "departureAirportName": "Shanghai Pudong International Apt",
+    "departureCityName": "Shanghai",
+    "departureLocationTimeZone": "Asia/Shanghai",
+    "destinationAirportName": "Naha Airport",
+    "destinationCityName": "Okinawa",
+    "destinationLocationTimeZone": "Asia/Tokyo",
     "passengerName": {
       "givenName": "SIMIAO",
       "familyName": "XU"
     },
     "departureLocation": {
-      "latitude": 35.76472,
-      "longitude": 140.38639
+      "latitude": 31.143378,
+      "longitude": 121.805214
     },
     "destinationGate": "A8",
     "destinationTerminal": "4",
     "destinationLocation": {
-      "latitude": 31.143378,
-      "longitude": 121.805214
+      "latitude": 26.19581,
+      "longitude": 127.64587
     },
     "ticketFareClass": "Economy",
     "transitStatus": "On Time",
@@ -92,7 +90,6 @@
       "SK-SFO-LOUNGE"
     ],
     "passengerCapabilities": [
-      "PKPassengerCapabilityPriorityBoarding",
       "PKPassengerCapabilityCarryon"
     ],
     "passengerAirlineSSRs": [
@@ -100,14 +97,22 @@
     ],
     "trackBagsURL": "https://example.com/bags/SK042",
     "upgradeURL": "https://example.com/upgrade/SK042",
-    "transitProvider": "Spring Airlines Japan",
-    "destinationAirportCode": "PVG",
-    "originalBoardingDate": "2025-05-22T10:20:00.000Z",
-    "originalDepartureDate": "2025-05-22T10:20:00.000Z",
+    "transitProvider": "Spring Airlines",
+    "destinationAirportCode": "OKA",
     "internationalDocumentsVerifiedDeclarationName": "DOCS OK",
     "internationalDocumentsAreVerified": true,
-    "currentBoardingDate": "2025-05-22T10:20:00.000Z",
-    "departureTerminal": "T3"
+    "departureTerminal": "T3",
+    "confirmationNumber": "BKFJSTD",
+    "originalDepartureDate": "2026-05-23T02:35:00.000Z",
+    "originalArrivalDate": "2026-05-23T05:00:00.000Z",
+    "seats": [
+      {
+        "seatRow": "30",
+        "seatNumber": "A"
+      }
+    ],
+    "currentDepartureDate": "2026-05-23T02:35:00.000Z",
+    "currentArrivalDate": "2026-05-23T05:00:00.000Z"
   },
   "preferredStyleSchemes": [
     "semanticBoardingPass",
@@ -120,8 +125,8 @@
       "messageEncoding": "iso-8859-1"
     }
   ],
-  "relevantDate": "2025-05-22T11:20:00.000Z",
-  "expirationDate": "2025-05-22T12:45:00.000Z",
+  "relevantDate": "2026-05-23T02:35:00.000Z",
+  "expirationDate": "2026-05-23T05:00:00.000Z",
   "webServiceURL": "https://example.invalid/passkit",
   "authenticationToken": "0000000000000000",
   "locations": [
@@ -131,9 +136,9 @@
       "relevantText": "上海浦东国际机场T2航站楼"
     },
     {
-      "longitude": 140.38639,
-      "latitude": 35.76472,
-      "relevantText": "东京成田国际机场T3航站楼"
+      "longitude": 127.64587,
+      "latitude": 26.19581,
+      "relevantText": "冲绳那霸机场"
     }
   ]
 }
