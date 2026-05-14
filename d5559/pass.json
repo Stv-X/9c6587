@@ -72,7 +72,6 @@
     ],
     "transitType": "PKTransitTypeTrain"
   },
-  "logoText": "12306",
   "semantics": {
     "airlineCode": "SK",
     "flightCode": "SK042",
