@@ -165,5 +165,12 @@
     }
   ],
   "webServiceURL": "https://example.invalid/passkit",
-  "authenticationToken": "0000000000000000"
+  "authenticationToken": "0000000000000000",
+  "locations": [
+    {
+      "longitude": 121.316237,
+      "latitude": 31.195527,
+      "relevantText": "上海虹桥站"
+    }
+  ]
 }
