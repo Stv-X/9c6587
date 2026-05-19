@@ -5,7 +5,7 @@
   "passTypeIdentifier": "pass.mk.local",
   "teamIdentifier": "9733K94JUG",
   "serialNumber": "6B5CCB5103ADF21E",
-  "organizationName": "Spring Airlines",
+  "organizationName": "春秋航空",
   "description": "9C6245",
   "foregroundColor": "rgb(255, 255, 255)",
   "backgroundColor": "rgb(20, 131, 85)",
@@ -61,6 +61,7 @@
     ],
     "transitType": "PKTransitTypeAir"
   },
+  "logoText": "j",
   "semantics": {
     "airlineCode": "9C",
     "flightCode": "9C6245",
@@ -107,10 +108,10 @@
       "PKPassengerCapabilityPersonalItem"
     ],
     "destinationCityName": "Okinawa",
-    "transitProvider": "Spring",
     "departureCityName": "Shanghai",
-    "departureAirportName": "上海浦东国际机场",
-    "destinationAirportName": "那霸机场"
+    "departureAirportName": "Shanghai Pudong International Apt",
+    "destinationAirportName": "Naha Airport",
+    "transitProvider": "9C6245"
   },
   "preferredStyleSchemes": [
     "semanticBoardingPass",
