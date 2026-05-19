@@ -63,7 +63,7 @@
   },
   "semantics": {
     "airlineCode": "9C",
-    "flightCode": "KA120",
+    "flightCode": "9C6245",
     "flightNumber": 6245,
     "departureAirportCode": "PVG",
     "departureLocationTimeZone": "Asia/Shanghai",
@@ -80,18 +80,9 @@
     },
     "ticketFareClass": "Economy",
     "transitStatus": "On Time",
-    "securityScreening": "TSA PreCheck",
-    "vehicleName": "Boeing 737-81D",
+    "vehicleName": "Airbus 320-186",
     "vehicleNumber": "JA01GR",
     "vehicleType": "Airplane",
-    "loungePlaceIDs": [
-      "SK-SFO-LOUNGE"
-    ],
-    "passengerAirlineSSRs": [
-      "SKY"
-    ],
-    "trackBagsURL": "https://example.com/bags/SK042",
-    "upgradeURL": "https://example.com/upgrade/SK042",
     "destinationAirportCode": "OKA",
     "departureTerminal": "T2",
     "confirmationNumber": "BKFJSTD",
