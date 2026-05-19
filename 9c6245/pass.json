@@ -5,7 +5,7 @@
   "passTypeIdentifier": "pass.mk.local",
   "teamIdentifier": "9733K94JUG",
   "serialNumber": "6B5CCB5103ADF21E",
-  "organizationName": "Spring Airlines",
+  "organizationName": "春秋航空",
   "description": "9C6245",
   "foregroundColor": "rgb(255, 255, 255)",
   "backgroundColor": "rgb(20, 131, 85)",
@@ -21,12 +21,12 @@
     "primaryFields": [
       {
         "key": "from",
-        "label": "Shanghai",
+        "label": "上海浦东",
         "value": "PVG"
       },
       {
         "key": "to",
-        "label": "Okinawa",
+        "label": "冲绳那霸",
         "value": "OKA"
       }
     ],
@@ -51,7 +51,7 @@
       {
         "key": "terminal",
         "label": "TERM",
-        "value": "T3"
+        "value": "T2"
       },
       {
         "key": "arrives",
@@ -66,10 +66,7 @@
     "flightCode": "KA120",
     "flightNumber": 6245,
     "departureAirportCode": "PVG",
-    "departureAirportName": "Shanghai Pudong International Apt",
     "departureLocationTimeZone": "Asia/Shanghai",
-    "destinationAirportName": "Naha Airport",
-    "destinationCityName": "Okinawa",
     "destinationLocationTimeZone": "Asia/Tokyo",
     "departureLocation": {
       "latitude": 31.143378,
@@ -95,9 +92,8 @@
     ],
     "trackBagsURL": "https://example.com/bags/SK042",
     "upgradeURL": "https://example.com/upgrade/SK042",
-    "transitProvider": "Spring Airlines",
     "destinationAirportCode": "OKA",
-    "departureTerminal": "T3",
+    "departureTerminal": "T2",
     "confirmationNumber": "BKFJSTD",
     "originalDepartureDate": "2026-05-23T02:35:00.000Z",
     "originalArrivalDate": "2026-05-23T05:00:00.000Z",
@@ -119,7 +115,11 @@
       "PKPassengerCapabilityCarryon",
       "PKPassengerCapabilityPersonalItem"
     ],
-    "departureCityName": "Shanghai"
+    "departureAirportName": "上海浦东国际机场",
+    "destinationAirportName": "那霸机场",
+    "destinationCityName": "冲绳那霸",
+    "departureCityName": "上海浦东",
+    "transitProvider": "春秋航空"
   },
   "preferredStyleSchemes": [
     "semanticBoardingPass",
