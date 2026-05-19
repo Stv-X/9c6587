@@ -59,6 +59,7 @@
     ],
     "transitType": "PKTransitTypeAir"
   },
+  "logoText": "春秋航空",
   "semantics": {
     "airlineCode": "9C",
     "flightCode": "KA120",
