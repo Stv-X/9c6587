@@ -1,9 +1,10 @@
 {
-  "pass.json": "d937372248d7a469fe45926ed417860aa4df6639",
+  "pass.json": "739e02fb93bbbce2b160f542cfb8555bddc891fb",
   "icon.png": "65ced67d0d80e930297de95ccc38d4694b315902",
   "icon@2x.png": "be0712ed5825f8a4599bfbb5ff13d34efa7e3a34",
   "icon@3x.png": "74277ef37c9d226a6ec3d9bf2f609d47e6baa802",
   "primaryLogo.png": "1bef5845106f5090e12aca5b56d341aa60638720",
   "primaryLogo@2x.png": "375e67d1c0915c0cbe8e6b0b05a2e1f6723884f5",
-  "primaryLogo@3x.png": "230e77d2123664d353668ab2757c0c6dd09542b1"
+  "primaryLogo@3x.png": "230e77d2123664d353668ab2757c0c6dd09542b1",
+  "zh-Hans.lproj/pass.strings": "76ff3718af7e755718e1d32d09d298bc74383c0d"
 }

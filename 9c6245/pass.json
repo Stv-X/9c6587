@@ -1,4 +1,6 @@
 {
+  "transitProviderPhoneNumber": "+86 21 95524",
+  "transitProviderWebsiteURL": "ch.com",
   "formatVersion": 1,
   "passTypeIdentifier": "pass.mk.local",
   "teamIdentifier": "9733K94JUG",
@@ -65,15 +67,10 @@
     "flightNumber": 6245,
     "departureAirportCode": "PVG",
     "departureAirportName": "Shanghai Pudong International Apt",
-    "departureCityName": "Shanghai",
     "departureLocationTimeZone": "Asia/Shanghai",
     "destinationAirportName": "Naha Airport",
     "destinationCityName": "Okinawa",
     "destinationLocationTimeZone": "Asia/Tokyo",
-    "passengerName": {
-      "givenName": "SIMIAO",
-      "familyName": "XU"
-    },
     "departureLocation": {
       "latitude": 31.143378,
       "longitude": 121.805214
@@ -93,9 +90,6 @@
     "loungePlaceIDs": [
       "SK-SFO-LOUNGE"
     ],
-    "passengerCapabilities": [
-      "PKPassengerCapabilityCarryon"
-    ],
     "passengerAirlineSSRs": [
       "SKY"
     ],
@@ -103,8 +97,6 @@
     "upgradeURL": "https://example.com/upgrade/SK042",
     "transitProvider": "Spring Airlines",
     "destinationAirportCode": "OKA",
-    "internationalDocumentsVerifiedDeclarationName": "DOCS OK",
-    "internationalDocumentsAreVerified": true,
     "departureTerminal": "T3",
     "confirmationNumber": "BKFJSTD",
     "originalDepartureDate": "2026-05-23T02:35:00.000Z",
@@ -118,7 +110,16 @@
     "originalBoardingDate": "2026-05-23T02:35:00.000Z",
     "currentBoardingDate": "2026-05-23T02:35:00.000Z",
     "currentDepartureDate": "2026-05-23T02:35:00.000Z",
-    "currentArrivalDate": "2026-05-23T05:00:00.000Z"
+    "currentArrivalDate": "2026-05-23T05:00:00.000Z",
+    "passengerName": {
+      "givenName": "SIMIAO",
+      "familyName": "XU"
+    },
+    "passengerCapabilities": [
+      "PKPassengerCapabilityCarryon",
+      "PKPassengerCapabilityPersonalItem"
+    ],
+    "departureCityName": "Shanghai"
   },
   "preferredStyleSchemes": [
     "semanticBoardingPass",
@@ -135,6 +136,10 @@
   "expirationDate": "2026-05-23T05:00:00.000Z",
   "webServiceURL": "https://example.invalid/passkit",
   "authenticationToken": "0000000000000000",
+  "associatedStoreIdentifiers": [
+    460033035
+  ],
+  "maxDistance": 1000,
   "locations": [
     {
       "longitude": 121.805214,
