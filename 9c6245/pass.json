@@ -5,7 +5,7 @@
   "passTypeIdentifier": "pass.mk.local",
   "teamIdentifier": "9733K94JUG",
   "serialNumber": "6B5CCB5103ADF21E",
-  "organizationName": "Spring",
+  "organizationName": "Spring Airlines",
   "description": "9C6245",
   "foregroundColor": "rgb(255, 255, 255)",
   "backgroundColor": "rgb(20, 131, 85)",
@@ -21,12 +21,12 @@
     "primaryFields": [
       {
         "key": "from",
-        "label": "上海浦东",
+        "label": "Shanghai",
         "value": "PVG"
       },
       {
         "key": "to",
-        "label": "冲绳那霸",
+        "label": "Okinawa",
         "value": "OKA"
       }
     ],
@@ -115,11 +115,11 @@
       "PKPassengerCapabilityCarryon",
       "PKPassengerCapabilityPersonalItem"
     ],
+    "destinationCityName": "Okinawa",
+    "transitProvider": "Spring",
+    "departureCityName": "Shanghai",
     "departureAirportName": "上海浦东国际机场",
-    "destinationAirportName": "那霸机场",
-    "destinationCityName": "冲绳那霸",
-    "departureCityName": "上海浦东",
-    "transitProvider": "Spring"
+    "destinationAirportName": "那霸机场"
   },
   "preferredStyleSchemes": [
     "semanticBoardingPass",
