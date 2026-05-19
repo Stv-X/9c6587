@@ -5,7 +5,7 @@
   "passTypeIdentifier": "pass.mk.local",
   "teamIdentifier": "9733K94JUG",
   "serialNumber": "6B5CCB5103ADF21E",
-  "organizationName": "Spring Airlines",
+  "organizationName": "Spring",
   "description": "9C6245",
   "foregroundColor": "rgb(255, 255, 255)",
   "backgroundColor": "rgb(20, 131, 85)",
@@ -119,7 +119,7 @@
     "destinationAirportName": "那霸机场",
     "destinationCityName": "冲绳那霸",
     "departureCityName": "上海浦东",
-    "transitProvider": "春秋航空"
+    "transitProvider": "Spring"
   },
   "preferredStyleSchemes": [
     "semanticBoardingPass",
